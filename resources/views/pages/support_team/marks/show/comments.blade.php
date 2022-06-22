@@ -13,7 +13,7 @@
                     <div class="form-group row">
                         <label class="col-lg-2 col-form-label font-weight-semibold">Latest Juz Memorization</label>
                         <div class="col-lg-10">
-                            <input name="t_comment" value="{{ $exr->t_comment }}"  type="text" class="form-control" placeholder="Teacher's Comment">
+                            <input name="t_comment" value="{{ $exr->t_comment }}"  type="text" class="form-control" placeholder="Latest Juz">
                         </div>
                     </div>
                 @endif
@@ -22,7 +22,7 @@
                     <div class="form-group row">
                         <label class="col-lg-2 col-form-label font-weight-semibold">Teacher's Comment</label>
                         <div class="col-lg-10">
-                            <input name="p_comment" value="{{ $exr->p_comment }}"  type="text" class="form-control" placeholder="Head Teacher's Comment">
+                            <input name="p_comment" value="{{ $exr->p_comment }}"  type="text" class="form-control" placeholder="Teacher's Comment">
                         </div>
                     </div>
                 @endif
